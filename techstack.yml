@@ -1,11 +1,12 @@
 repo_name: kalwabed/next.js
 report_id: 3434cc9ffb341a022dde682e2cb1fe4e
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T13:18:26+00:00'
+timestamp: '2024-01-05T08:56:12+00:00'
 requested_by: ijjk
 provider: github
 branch: canary
-detected_tools_count: 335
+detected_tools_count: 338
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/kalwabed/next.js
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/kalwabed/next.js
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -35,7 +38,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
-  detection_source: examples/with-neo4j/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-apollo-neo4j-graphql/package.json
+  detection_source: examples/with-apollo-neo4j-graphql/package.json
   last_updated_by: Nikolas Santis
   last_updated_on: 2020-11-20 20:38:08.000000000 Z
 - name: TypeScript
@@ -47,6 +51,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/kalwabed/next.js
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -58,6 +63,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/packages/next/package.json
   detection_source: packages/next/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2018-09-30 23:02:10.000000000 Z
@@ -71,8 +77,8 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/6112/12101536.png
-  detection_source_url: examples/with-ant-design-less/package.json
-  detection_source: examples/with-ant-design/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-ant-design-less/package.json
+  detection_source: examples/with-ant-design-less/package.json
   last_updated_by: Giau Tran Minh
   last_updated_on: 2018-06-07 11:14:27.000000000 Z
 - name: Autoprefixer
@@ -83,7 +89,8 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
-  detection_source: examples/with-tailwindcss/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/blog-starter/package.json
+  detection_source: examples/blog-starter/package.json
   last_updated_by: Greg Rickaby
   last_updated_on: 2020-12-31 00:04:23.000000000 Z
 - name: Bootstrap
@@ -97,8 +104,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
-  detection_source_url: examples/with-react-bootstrap/package.json
-  detection_source: examples/with-reactstrap/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-bootstrap/package.json
+  detection_source: examples/with-react-bootstrap/package.json
   last_updated_by: liwenzhi
   last_updated_on: 2020-05-07 22:13:59.000000000 Z
 - name: DraftJS
@@ -111,7 +118,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/5388/9xvwNLlR_400x400.jpg
-  detection_source_url: examples/with-draft-js/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-draft-js/package.json
   detection_source: examples/with-draft-js/package.json
   last_updated_by: Rounak Agarwal
   last_updated_on: 2020-04-20 09:05:09.000000000 Z
@@ -125,8 +132,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Cross-Platform Desktop Development
   image_url: https://img.stackshare.io/service/2946/default_18a71b65e69d7aef5f218ae07f64eb6e1594c444.jpg
-  detection_source_url: examples/with-electron-typescript/package.json
-  detection_source: examples/with-electron/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-electron-typescript/package.json
+  detection_source: examples/with-electron-typescript/package.json
   last_updated_by: LittleboyHarry
   last_updated_on: 2020-11-12 21:02:43.000000000 Z
 - name: ExpressJS
@@ -140,8 +147,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/custom-server-express/package.json
   last_updated_by: liulanz
   last_updated_on: 2020-04-11 21:18:40.000000000 Z
 - name: Fastify
@@ -153,7 +160,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/7609/24939410.png
-  detection_source_url: examples/custom-server-fastify/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/custom-server-fastify/package.json
   detection_source: examples/custom-server-fastify/package.json
   last_updated_by: Patrick Dahms
   last_updated_on: 2020-03-13 09:53:57.000000000 Z
@@ -167,7 +174,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1726/5055057.png
-  detection_source_url: examples/custom-server-koa/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/custom-server-koa/package.json
   detection_source: examples/custom-server-koa/package.json
   last_updated_by: Dan Zajdband
   last_updated_on: 2017-01-17 07:23:06.000000000 Z
@@ -181,8 +188,8 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/1170/default_957cbc0168b4d37265e264469c888f776e57f42c.png
-  detection_source_url: examples/with-ant-design-less/package.json
-  detection_source: examples/with-next-less/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-ant-design-less/package.json
+  detection_source: examples/with-ant-design-less/package.json
   last_updated_by: Giau Tran Minh
   last_updated_on: 2018-06-07 11:14:27.000000000 Z
 - name: Material-UI
@@ -195,6 +202,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-multi-carousel/package.json
   detection_source: examples/with-react-multi-carousel/package.json
   last_updated_by: yi
   last_updated_on: 2019-04-03 10:58:59.000000000 Z
@@ -208,8 +216,8 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/5302/17475736.png
-  detection_source_url: examples/with-mobx-react-lite/package.json
-  detection_source: examples/with-mobx/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-mobx-react-lite/package.json
+  detection_source: examples/with-mobx-react-lite/package.json
   last_updated_by: John Lombardo
   last_updated_on: 2019-03-16 15:47:28.000000000 Z
 - name: MobX-State-Tree
@@ -221,7 +229,8 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/9129/default_c85dc717f6faf8f246f92d33fca5399a349b294f.png
-  detection_source: examples/with-mobx-state-tree/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-mobx-state-tree-typescript/package.json
+  detection_source: examples/with-mobx-state-tree-typescript/package.json
   last_updated_by: kevin sproles
   last_updated_on: 2020-07-17 18:42:36.000000000 Z
 - name: Next.js
@@ -233,8 +242,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/5936/nextjs.png
-  detection_source_url: examples/api-routes-rate-limit/package.json
-  detection_source: test/integration/styled-jsx-plugin/app/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/api-routes-rate-limit/package.json
+  detection_source: examples/active-class-name/package.json
   last_updated_by: Remy Sharp
   last_updated_on: 2017-10-30 14:24:31.000000000 Z
 - name: Node.js
@@ -246,7 +255,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/.github/actions/next-stats-action/Dockerfile
+  detection_source: ".github/actions/next-stats-action/Dockerfile"
   last_updated_by: JJ Kasper
   last_updated_on: 2020-05-21 12:07:27.000000000 Z
 - name: Preact
@@ -259,7 +269,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/4388/preact.png
-  detection_source_url: examples/using-preact/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/using-preact/package.json
   detection_source: examples/using-preact/package.json
   last_updated_by: Vitor Dino
   last_updated_on: 2020-11-05 16:56:58.000000000 Z
@@ -273,8 +283,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: yarn.lock
-  detection_source: test/integration/styled-jsx-plugin/app/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/active-class-name/package.json
   last_updated_by: Juan Olvera
   last_updated_on: 2019-01-05 11:19:27.000000000 Z
 - name: React Native
@@ -286,7 +296,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Cross-Platform Mobile Development
   image_url: https://img.stackshare.io/service/2699/KoK6gHzp.jpg
-  detection_source: examples/with-expo/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-expo-typescript/package.json
+  detection_source: examples/with-expo-typescript/package.json
   last_updated_by: Jack Moore
   last_updated_on: 2020-05-22 17:21:46.000000000 Z
 - name: Redux
@@ -298,8 +309,8 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/4074/13142323.png
-  detection_source_url: examples/with-apollo-and-redux/package.json
-  detection_source: examples/with-rematch/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-apollo-and-redux/package.json
+  detection_source: examples/with-apollo-and-redux/package.json
   last_updated_by: Luis Alvarez D
   last_updated_on: 2020-06-09 21:11:45.000000000 Z
 - name: Redux Observable
@@ -310,6 +321,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Concurrency Frameworks
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-redux-observable/package.json
   detection_source: examples/with-redux-observable/package.json
   last_updated_by: Todor Totev
   last_updated_on: 2020-06-03 09:23:16.000000000 Z
@@ -323,7 +335,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/4155/Screen_Shot_2015_12_21_at_3_02_58_PM.png
-  detection_source: examples/with-relay-modern/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-relay-network-modern/package.json
+  detection_source: examples/with-react-relay-network-modern/package.json
   last_updated_by: Ting-Hsiang Hsu
   last_updated_on: 2020-09-02 19:31:02.000000000 Z
 - name: RxJS
@@ -335,8 +348,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Concurrency Frameworks
   image_url: https://img.stackshare.io/service/1796/984368.png
-  detection_source_url: yarn.lock
-  detection_source: examples/with-redux-observable/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/cms-kontent/package.json
   last_updated_by: Ondřej Chrastina
   last_updated_on: 2020-08-24 22:58:53.000000000 Z
 - name: Sass
@@ -348,7 +361,8 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
-  detection_source: test/integration/cli/duplicate-sass/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-carbon-components/package.json
+  detection_source: examples/with-carbon-components/package.json
   last_updated_by: A K
   last_updated_on: 2018-09-04 15:16:54.000000000 Z
 - name: Semantic UI
@@ -362,7 +376,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1106/semantic-ui.png
-  detection_source_url: examples/with-semantic-ui/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-semantic-ui/package.json
   detection_source: examples/with-semantic-ui/package.json
   last_updated_by: Marcin Czenko
   last_updated_on: 2019-01-28 07:37:24.000000000 Z
@@ -375,7 +389,8 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
-  detection_source: examples/with-storybook/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-storybook-styled-jsx-scss/package.json
+  detection_source: examples/with-storybook-styled-jsx-scss/package.json
   last_updated_by: Justin Philpott
   last_updated_on: 2021-01-04 20:46:34.000000000 Z
 - name: Zustand
@@ -388,7 +403,7 @@ tools:
   category: Libraries
   sub_category: Monitoring for Analytics
   image_url: https://img.stackshare.io/service/11559/zustand.png
-  detection_source_url: examples/with-zustand/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-zustand/package.json
   detection_source: examples/with-zustand/package.json
   last_updated_by: Callum Booth
   last_updated_on: 2020-11-10 23:06:49.000000000 Z
@@ -401,6 +416,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/25386/default_f91d1532e1ec0afad7b7ff3786fa781c32ddb264.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-astroturf/package.json
   detection_source: examples/with-astroturf/package.json
   last_updated_by: Danil Shashkov
   last_updated_on: 2019-03-28 20:41:05.000000000 Z
@@ -413,7 +429,8 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-algolia-react-instantsearch/package.json
+  detection_source: examples/with-algolia-react-instantsearch/package.json
   last_updated_by: Natalie Marleny
   last_updated_on: 2019-12-04 23:33:29.000000000 Z
 - name: goober
@@ -425,6 +442,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/25309/default_76739b06a3432acdb0eafa4245aab152cf7049aa.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-goober/package.json
   detection_source: examples/with-goober/package.json
   last_updated_by: Kristoffer K
   last_updated_on: 2020-09-05 21:23:51.000000000 Z
@@ -438,7 +456,8 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/6757/react-md.png
-  detection_source: examples/with-react-md/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-md-typescript/package.json
+  detection_source: examples/with-react-md-typescript/package.json
   last_updated_by: Mikkel Laursen
   last_updated_on: 2020-08-05 18:24:20.000000000 Z
 - name: reactstrap
@@ -450,6 +469,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/8935/0Xm63ShM_400x400__1_.jpg
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-reactstrap/package.json
   detection_source: examples/with-reactstrap/package.json
   last_updated_by: khasty720
   last_updated_on: 2020-08-12 06:25:47.000000000 Z
@@ -462,7 +482,8 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/5448/13142323.png
-  detection_source: examples/with-redux-wrapper/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-redux-code-splitting/package.json
+  detection_source: examples/with-redux-code-splitting/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2017-08-27 20:13:35.000000000 Z
 - name: reselect
@@ -474,6 +495,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/7757/13142323.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-kea/package.json
   detection_source: examples/with-kea/package.json
   last_updated_by: Luis Alvarez D
   last_updated_on: 2020-04-07 13:48:13.000000000 Z
@@ -488,8 +510,8 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/6749/styled-components.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-atlaskit/package.json
   last_updated_by: Alejandro
   last_updated_on: 2020-04-05 11:27:49.000000000 Z
 - name: unistore
@@ -500,6 +522,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/8115/68747470733a2f2f692e696d6775722e636f6d2f6f30753664746f2e706e67.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/packages/next/package.json
   detection_source: packages/next/package.json
   last_updated_by: Guy Bedford
   last_updated_on: 2020-11-04 21:52:49.000000000 Z
@@ -511,7 +534,8 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/116/cZLxNFZS.jpg
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-firebase-authentication/package.json
+  detection_source: examples/with-firebase-authentication/package.json
   last_updated_by: matamatanot
   last_updated_on: 2020-06-26 12:55:32.000000000 Z
 - name: GraphQL
@@ -522,7 +546,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Query Languages
   image_url: https://img.stackshare.io/service/3820/12972006.png
-  detection_source: examples/with-urql/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/api-routes-apollo-server-and-client-auth/package.json
+  detection_source: examples/api-routes-apollo-server-and-client-auth/package.json
   last_updated_by: Aaron Reisman
   last_updated_on: 2020-01-23 19:55:45.000000000 Z
 - name: MQTT
@@ -533,6 +558,7 @@ tools:
   category: Data Stores
   sub_category: Message Queue
   image_url: https://img.stackshare.io/service/3670/mqtticon-large_400x400.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-mqtt-js/package.json
   detection_source: examples/with-mqtt-js/package.json
   last_updated_by: Sebastian König
   last_updated_on: 2021-01-06 17:06:56.000000000 Z
@@ -544,6 +570,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-mongodb/package.json
   detection_source: examples/with-mongodb/package.json
   last_updated_by: Ado Kukic
   last_updated_on: 2020-07-23 01:03:18.000000000 Z
@@ -557,7 +584,7 @@ tools:
   category: Data Stores
   sub_category: Object Document Mapper (ODM)
   image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
-  detection_source_url: examples/with-mongodb-mongoose/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-mongodb-mongoose/package.json
   detection_source: examples/with-mongodb-mongoose/package.json
   last_updated_by: MichelleLucero
   last_updated_on: 2020-05-30 17:15:00.000000000 Z
@@ -569,6 +596,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-knex/package.json
   detection_source: examples/with-knex/package.json
   last_updated_by: Ash Connell
   last_updated_on: 2020-11-10 22:45:21.000000000 Z
@@ -582,7 +610,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
-  detection_source_url: examples/with-redis/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-redis/package.json
   detection_source: examples/with-redis/package.json
   last_updated_by: Sven Anderson
   last_updated_on: 2020-08-07 01:34:02.000000000 Z
@@ -596,7 +624,7 @@ tools:
   category: Data Stores
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/6740/no-img-open-source.png
-  detection_source_url: examples/with-redux-persist/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-redux-persist/package.json
   detection_source: examples/with-redux-persist/package.json
   last_updated_by: Kristoffer K
   last_updated_on: 2020-09-05 21:23:51.000000000 Z
@@ -609,6 +637,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-next-auth/package.json
   detection_source: examples/with-next-auth/package.json
   last_updated_by: Nico Domino
   last_updated_on: 2020-06-24 22:24:02.000000000 Z
@@ -621,6 +650,7 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/custom-server-actionhero/package.json
   detection_source: examples/custom-server-actionhero/package.json
   last_updated_by: Evan Tahler
   last_updated_on: 2018-02-27 12:16:17.000000000 Z
@@ -634,8 +664,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: AWS Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: examples/with-aws-amplify-typescript/package.json
-  detection_source: examples/with-aws-amplify/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-aws-amplify-typescript/package.json
+  detection_source: examples/with-aws-amplify-typescript/package.json
   last_updated_by: Todor Totev
   last_updated_on: 2020-06-11 18:02:58.000000000 Z
 - name: Azure Pipelines
@@ -646,6 +676,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/azure-pipelines.yml
   detection_source: azure-pipelines.yml
   last_updated_by: JJ Kasper
   last_updated_on: 2021-01-05 01:41:42.000000000 Z
@@ -659,8 +690,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: yarn.lock
-  detection_source: test/integration/typescript-only-remove-type-imports/.babelrc
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/custom-server-typescript/.babelrc
   last_updated_by: Junyoung Choi
   last_updated_on: 2019-07-09 17:24:14.000000000 Z
 - name: Browserify
@@ -672,6 +703,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/packages/next/package.json
   detection_source: packages/next/package.json
   last_updated_by: Bogdan Chadkin
   last_updated_on: 2020-11-05 12:30:20.000000000 Z
@@ -684,6 +716,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/package.json
   detection_source: package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2019-05-23 07:52:36.000000000 Z
@@ -696,7 +729,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
-  detection_source: examples/with-docker/Dockerfile
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/.github/actions/next-stats-action/Dockerfile
+  detection_source: ".github/actions/next-stats-action/Dockerfile"
   last_updated_by: JJ Kasper
   last_updated_on: 2020-05-21 12:07:27.000000000 Z
 - name: Dotenv
@@ -708,7 +742,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
-  detection_source: packages/next-env/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-mysql/package.json
+  detection_source: examples/with-mysql/package.json
   last_updated_by: Allen Hai
   last_updated_on: 2020-11-24 00:13:09.000000000 Z
 - name: ESLint
@@ -720,7 +755,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-flow/package.json
+  detection_source: examples/with-flow/package.json
   last_updated_by: jagreehal
   last_updated_on: 2017-01-19 09:48:55.000000000 Z
 - name: Enzyme
@@ -733,7 +769,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
-  detection_source_url: examples/with-mocha/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-mocha/package.json
   detection_source: examples/with-mocha/package.json
   last_updated_by: Timon Borter
   last_updated_on: 2020-03-20 09:13:57.000000000 Z
@@ -745,6 +781,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kalwabed/next.js
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -754,7 +791,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/test_react_next.yml"
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/.github/workflows/build_test_deploy.yml
+  detection_source: ".github/workflows/build_test_deploy.yml"
   last_updated_by: JJ Kasper
   last_updated_on: 2021-01-01 17:39:39.000000000 Z
 - name: Jest
@@ -767,8 +805,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: examples/with-jest/package.json
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-jest/package.json
+  detection_source: examples/blog-starter-typescript/package.json
   last_updated_by: Koji Sugimoto
   last_updated_on: 2020-05-23 18:34:35.000000000 Z
 - name: Mocha
@@ -782,7 +820,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: examples/with-mocha/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-mocha/package.json
   detection_source: examples/with-mocha/package.json
   last_updated_by: Timon Borter
   last_updated_on: 2020-03-20 09:13:57.000000000 Z
@@ -794,6 +832,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/packages/next/package.json
   detection_source: packages/next/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2018-09-30 23:02:10.000000000 Z
@@ -807,8 +846,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: ".github/actions/next-stats-action/package.json"
   last_updated_by: JJ Kasper
   last_updated_on: 2020-05-21 12:07:27.000000000 Z
 - name: PyPI
@@ -819,7 +858,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
-  detection_source: examples/with-neo4j/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-apollo-neo4j-graphql/package.json
+  detection_source: examples/with-apollo-neo4j-graphql/package.json
   last_updated_by: Nikolas Santis
   last_updated_on: 2020-11-20 20:38:08.000000000 Z
 - name: Sentry
@@ -830,7 +870,8 @@ tools:
   category: Monitoring
   sub_category: Exception Monitoring
   image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
-  detection_source: packages/next-plugin-sentry/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-sentry/package.json
+  detection_source: examples/with-sentry/package.json
   last_updated_by: Weston Thayer
   last_updated_on: 2020-11-09 18:36:36.000000000 Z
 - name: Webpack
@@ -843,8 +884,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-ionic-typescript/package.json
   last_updated_by: Hidetaka Okamoto
   last_updated_on: 2020-12-11 17:17:39.000000000 Z
 - name: Yarn
@@ -855,6 +896,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: yarn.lock
   last_updated_by: Tim Neutkens
   last_updated_on: 2018-12-13 15:56:48.000000000 Z
@@ -868,7 +910,7 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: examples/custom-server-typescript/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/custom-server-typescript/package.json
   detection_source: examples/custom-server-typescript/package.json
   last_updated_by: nirtamir2
   last_updated_on: 2020-08-05 13:15:38.000000000 Z
@@ -880,6 +922,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/package.json
   detection_source: package.json
   last_updated_by: nkzawa
   last_updated_on: 2016-10-05 23:52:50.000000000 Z
@@ -892,6 +935,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/10903/JLVo_YPe_400x400.jpg
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/package.json
   detection_source: package.json
   last_updated_by: Tommaso De Rossi
   last_updated_on: 2020-10-14 11:36:59.000000000 Z
@@ -904,7 +948,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Git Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-05-08 14:28:51.000000000 Z
@@ -917,7 +961,7 @@ tools:
   category: Application Utilities
   sub_category: Search as a Service
   image_url: https://img.stackshare.io/service/589/default_452afb716f8f4b904f267638e5c6b9172f9fa06d.png
-  detection_source_url: examples/with-algolia-react-instantsearch/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-algolia-react-instantsearch/package.json
   detection_source: examples/with-algolia-react-instantsearch/package.json
   last_updated_by: Kristoffer K
   last_updated_on: 2020-09-05 21:23:51.000000000 Z
@@ -929,6 +973,7 @@ tools:
   category: Payments
   sub_category: Payment Services
   image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-stripe-typescript/package.json
   detection_source: examples/with-stripe-typescript/package.json
   last_updated_by: Thor 雷神
   last_updated_on: 2020-05-30 17:32:36.000000000 Z
@@ -942,7 +987,7 @@ tools:
   category: Languages & Frameworks
   sub_category: UI Components
   image_url: https://img.stackshare.io/service/5368/icon.png
-  detection_source_url: examples/with-ionic-typescript/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-ionic-typescript/package.json
   detection_source: examples/with-ionic-typescript/package.json
   last_updated_by: Hidetaka Okamoto
   last_updated_on: 2020-12-11 17:17:39.000000000 Z
@@ -956,7 +1001,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-08-10 09:14:53.000000000 Z
@@ -969,8 +1014,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: yarn.lock
-  detection_source: examples/with-apollo/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-apollo-and-redux/package.json
   last_updated_by: Carmelo Scandaliato
   last_updated_on: 2020-12-02 19:45:31.000000000 Z
 - name: Moment.js
@@ -984,7 +1029,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-12-21 16:02:41.000000000 Z
@@ -997,6 +1042,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/kalwabed/next.js
   detection_source: Repo Metadata
 - name: chalk
   description: terminal colors
@@ -1004,7 +1050,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
-  detection_source: packages/react-dev-overlay/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/packages/create-next-app/package.json
+  detection_source: packages/create-next-app/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2019-07-19 19:55:30.000000000 Z
 - name: date-fns
@@ -1016,7 +1063,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
-  detection_source: examples/cms-wordpress/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/blog-starter-typescript/package.json
+  detection_source: examples/blog-starter-typescript/package.json
   last_updated_by: Koji Sugimoto
   last_updated_on: 2020-05-23 18:34:35.000000000 Z
 - name: hls.js
@@ -1024,7 +1072,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7677/no-img-open-source.png
-  detection_source: examples/with-mux-video/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-hls-js/package.json
+  detection_source: examples/with-hls-js/package.json
   last_updated_by: Dylan Jhaveri
   last_updated_on: 2020-05-14 02:47:28.000000000 Z
 - name: husky
@@ -1032,6 +1081,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-typescript-eslint-jest/package.json
   detection_source: examples/with-typescript-eslint-jest/package.json
   last_updated_by: Erik
   last_updated_on: 2020-05-25 18:16:06.000000000 Z
@@ -1040,7 +1090,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-typescript-eslint-jest/package.json
+  detection_source: examples/with-typescript-eslint-jest/package.json
   last_updated_by: Erik
   last_updated_on: 2020-05-25 18:16:06.000000000 Z
 - name: react-three-fiber
@@ -1052,6 +1103,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/12781/no-img.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-three-js/package.json
   detection_source: examples/with-three-js/package.json
   last_updated_by: Gianmarco
   last_updated_on: 2020-07-08 07:55:51.000000000 Z
@@ -1064,7 +1116,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Game Development
   image_url: https://img.stackshare.io/service/5883/preview.png
-  detection_source_url: examples/with-three-js/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-three-js/package.json
   detection_source: examples/with-three-js/package.json
   last_updated_by: Gianmarco
   last_updated_on: 2020-07-08 07:55:51.000000000 Z
@@ -1078,8 +1130,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18114/image.png
-  detection_source_url: yarn.lock
-  detection_source: packages/react-dev-overlay/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2021-01-04 15:31:56.000000000 Z
 - name: "@babel/core"
@@ -1092,8 +1144,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-expo-typescript/package.json
   last_updated_by: Jack Moore
   last_updated_on: 2020-05-22 17:21:46.000000000 Z
 - name: "@babel/plugin-proposal-class-properties"
@@ -1107,8 +1159,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-mobx/package.json
   last_updated_by: Mert Can
   last_updated_on: 2018-09-28 13:37:19.000000000 Z
 - name: "@babel/plugin-proposal-decorators"
@@ -1121,8 +1173,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16147/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: examples/with-kea/package.json
-  detection_source: examples/with-mobx/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-kea/package.json
+  detection_source: examples/with-kea/package.json
   last_updated_by: Luis Alvarez D
   last_updated_on: 2020-04-07 13:48:13.000000000 Z
 - name: "@babel/plugin-proposal-do-expressions"
@@ -1135,7 +1187,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16627/default_50c9ed1615a25628505ab53def64d82450ced26b.png
-  detection_source_url: examples/with-custom-babel-config/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-custom-babel-config/package.json
   detection_source: examples/with-custom-babel-config/package.json
   last_updated_by: Alexander Kachkaev
   last_updated_on: 2018-08-13 17:34:08.000000000 Z
@@ -1149,7 +1201,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16312/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1163,7 +1215,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16469/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1177,8 +1229,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16001/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
 - name: "@babel/plugin-syntax-dynamic-import"
@@ -1191,7 +1243,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16080/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1205,7 +1257,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17129/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1219,7 +1271,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16321/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2021-01-06 23:30:00.000000000 Z
@@ -1233,7 +1285,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1247,7 +1299,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1261,7 +1313,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16270/default_8b65a873fd3277d73483d6846fa38192391abf23.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1275,8 +1327,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
 - name: "@babel/preset-typescript"
@@ -1289,7 +1341,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1303,7 +1355,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16014/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: examples/with-mocha/package.json
   last_updated_by: Stephen Sauceda
   last_updated_on: 2018-09-16 22:12:39.000000000 Z
@@ -1317,7 +1369,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15934/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1331,7 +1383,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16786/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1345,8 +1397,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: examples/with-chakra-ui-typescript/package.json
-  detection_source: examples/with-tailwindcss-emotion/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-chakra-ui-typescript/package.json
+  detection_source: examples/with-chakra-ui-typescript/package.json
   last_updated_by: Tobias Lundgren
   last_updated_on: 2020-11-22 17:51:14.000000000 Z
 - name: "@hapi/hapi"
@@ -1359,7 +1411,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18181/default_9472f2a1c56256064874685c48697eac8a870621.png
-  detection_source_url: examples/custom-server-hapi/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/custom-server-hapi/package.json
   detection_source: examples/custom-server-hapi/package.json
   last_updated_by: Eduardo P. Rivero
   last_updated_on: 2019-06-26 07:40:35.000000000 Z
@@ -1380,7 +1432,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16271/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
-  detection_source_url: examples/with-react-multi-carousel/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-multi-carousel/package.json
   detection_source: examples/with-react-multi-carousel/package.json
   last_updated_by: yi
   last_updated_on: 2019-04-03 10:58:59.000000000 Z
@@ -1394,7 +1446,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16471/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: examples/with-react-multi-carousel/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-multi-carousel/package.json
   detection_source: examples/with-react-multi-carousel/package.json
   last_updated_by: yi
   last_updated_on: 2019-04-03 10:58:59.000000000 Z
@@ -1408,7 +1460,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
-  detection_source_url: examples/with-mdx/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-mdx/package.json
   detection_source: examples/with-mdx/package.json
   last_updated_by: Kristoffer K
   last_updated_on: 2021-01-04 16:24:16.000000000 Z
@@ -1422,8 +1474,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18385/default_3918a37cf2f76449e061a2c79fb02113faa1391a.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next-plugin-sentry/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-sentry/package.json
   last_updated_by: Weston Thayer
   last_updated_on: 2020-11-09 18:36:36.000000000 Z
 - name: "@sentry/node"
@@ -1436,8 +1488,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18428/default_9499465ee49aaffadf126149b962e9838bc4a993.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next-plugin-sentry/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-sentry/package.json
   last_updated_by: Weston Thayer
   last_updated_on: 2020-11-09 18:36:36.000000000 Z
 - name: "@stencil/core"
@@ -1450,7 +1502,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16352/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: examples/with-stencil/packages/test-component/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-stencil/packages/test-component/package.json
   detection_source: examples/with-stencil/packages/test-component/package.json
   last_updated_by: MH Rohman Masyhar
   last_updated_on: 2020-01-20 21:45:03.000000000 Z
@@ -1464,7 +1516,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16126/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
-  detection_source_url: examples/with-storybook-styled-jsx-scss/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-storybook-styled-jsx-scss/package.json
   detection_source: examples/with-storybook-styled-jsx-scss/package.json
   last_updated_by: Justin Philpott
   last_updated_on: 2021-01-04 20:46:34.000000000 Z
@@ -1478,8 +1530,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: examples/with-storybook-styled-jsx-scss/package.json
-  detection_source: examples/with-storybook/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-storybook-styled-jsx-scss/package.json
+  detection_source: examples/with-storybook-styled-jsx-scss/package.json
   last_updated_by: Justin Philpott
   last_updated_on: 2021-01-04 20:46:34.000000000 Z
 - name: "@storybook/react"
@@ -1493,8 +1545,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
-  detection_source_url: examples/with-storybook-styled-jsx-scss/package.json
-  detection_source: examples/with-storybook/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-storybook-styled-jsx-scss/package.json
+  detection_source: examples/with-storybook-styled-jsx-scss/package.json
   last_updated_by: Justin Philpott
   last_updated_on: 2021-01-04 20:46:34.000000000 Z
 - name: "@testing-library/jest-dom"
@@ -1507,7 +1559,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
-  detection_source_url: examples/with-jest/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-jest/package.json
   detection_source: examples/with-jest/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-02-03 19:36:55.000000000 Z
@@ -1522,8 +1574,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: examples/with-jest/package.json
-  detection_source: examples/with-typescript-eslint-jest/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-jest/package.json
+  detection_source: examples/with-jest/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-02-03 19:36:55.000000000 Z
 - name: "@types/babel__core"
@@ -1536,7 +1588,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18415/default_867ef7396016341fd213fa568d6de11cc98fefff.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1550,7 +1602,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17279/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Simon Knott
   last_updated_on: 2020-05-09 15:12:02.000000000 Z
@@ -1564,7 +1616,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16431/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
-  detection_source_url: examples/blog-starter-typescript/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/blog-starter-typescript/package.json
   detection_source: examples/blog-starter-typescript/package.json
   last_updated_by: Yann Pringault
   last_updated_on: 2020-11-12 02:34:30.000000000 Z
@@ -1578,7 +1630,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18206/default_dfaa3c3f19039c5391ee1a13529324eaa2685e7f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2021-01-06 23:30:00.000000000 Z
@@ -1592,7 +1644,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18504/default_aabef48673d7b85e098f65ec3d0fa0b5983de6b5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1606,7 +1658,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16332/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1620,7 +1672,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16809/default_9a5182350af29cb82b3344853e865051f508ac6c.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next-env/package.json
   last_updated_by: JJ Kasper
   last_updated_on: 2020-09-25 18:14:28.000000000 Z
@@ -1634,7 +1686,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Simon Knott
   last_updated_on: 2020-05-09 15:12:02.000000000 Z
@@ -1648,8 +1700,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/blog-starter-typescript/package.json
   last_updated_by: Yann Pringault
   last_updated_on: 2020-11-12 02:34:30.000000000 Z
 - name: "@types/jsonwebtoken"
@@ -1662,7 +1714,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16959/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1676,8 +1728,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: yarn.lock
-  detection_source: packages/create-next-app/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/blog-starter-typescript/package.json
   last_updated_by: Yann Pringault
   last_updated_on: 2020-11-12 02:34:30.000000000 Z
 - name: "@types/node-fetch"
@@ -1690,7 +1742,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16459/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2021-01-04 15:31:56.000000000 Z
@@ -1704,8 +1756,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/blog-starter-typescript/package.json
   last_updated_by: Yann Pringault
   last_updated_on: 2020-11-12 02:34:30.000000000 Z
 - name: "@types/react-dom"
@@ -1718,8 +1770,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/blog-starter-typescript/package.json
   last_updated_by: Yann Pringault
   last_updated_on: 2020-11-12 02:34:30.000000000 Z
 - name: "@types/react-native"
@@ -1732,7 +1784,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16569/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
-  detection_source_url: examples/with-expo-typescript/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-expo-typescript/package.json
   detection_source: examples/with-expo-typescript/package.json
   last_updated_by: Jesse Jafa
   last_updated_on: 2020-08-30 02:17:02.000000000 Z
@@ -1746,7 +1798,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16593/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
-  detection_source_url: examples/with-typescript-graphql/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-typescript-graphql/package.json
   detection_source: examples/with-typescript-graphql/package.json
   last_updated_by: Soichi Takamura
   last_updated_on: 2020-08-30 02:15:50.000000000 Z
@@ -1760,7 +1812,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16354/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
-  detection_source_url: examples/with-unsplash/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-unsplash/package.json
   detection_source: examples/with-unsplash/package.json
   last_updated_by: Diego Gennaro
   last_updated_on: 2020-08-22 21:02:49.000000000 Z
@@ -1774,7 +1826,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16613/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/create-next-app/package.json
   last_updated_by: Marco Moretti
   last_updated_on: 2020-05-26 16:39:18.000000000 Z
@@ -1788,7 +1840,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -1802,7 +1854,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16494/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
-  detection_source_url: examples/with-typescript-styled-components/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-typescript-styled-components/package.json
   detection_source: examples/with-typescript-styled-components/package.json
   last_updated_by: Jesse Jafa
   last_updated_on: 2020-08-30 02:17:02.000000000 Z
@@ -1816,8 +1868,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-typescript-eslint-jest/package.json
   last_updated_by: Erik
   last_updated_on: 2020-05-25 18:16:06.000000000 Z
 - name: "@typescript-eslint/parser"
@@ -1830,8 +1882,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-typescript-eslint-jest/package.json
   last_updated_by: Erik
   last_updated_on: 2020-05-25 18:16:06.000000000 Z
 - name: accepts
@@ -1844,7 +1896,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17723/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: examples/with-react-intl/package.json
   last_updated_by: Long Ho
   last_updated_on: 2020-08-27 22:59:33.000000000 Z
@@ -1859,7 +1911,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17074/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
-  detection_source_url: examples/with-algolia-react-instantsearch/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-algolia-react-instantsearch/package.json
   detection_source: examples/with-algolia-react-instantsearch/package.json
   last_updated_by: Kristoffer K
   last_updated_on: 2020-09-05 21:23:51.000000000 Z
@@ -1873,7 +1925,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18235/default_950c270c4c8944606f2f09fbe7f322c8c9164018.png
-  detection_source_url: examples/with-ant-design-mobile/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-ant-design-mobile/package.json
   detection_source: examples/with-ant-design-mobile/package.json
   last_updated_by: Max Schmitt
   last_updated_on: 2020-05-06 23:00:48.000000000 Z
@@ -1887,8 +1939,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18353/default_66453dac5039f3ea2d494ebb900a31c627b16d29.png
-  detection_source_url: examples/with-aphrodite/package.json
-  detection_source: examples/with-react-with-styles/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-aphrodite/package.json
+  detection_source: examples/with-aphrodite/package.json
   last_updated_by: Corbin Crutchley
   last_updated_on: 2019-03-27 00:42:49.000000000 Z
 - name: arg
@@ -1901,7 +1953,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17564/default_99afdc7126f8a31ae778ef58d50c93ae3dd88880.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2018-09-30 23:02:10.000000000 Z
@@ -1915,8 +1967,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-lingui/package.json
   last_updated_by: Raphael Chaula
   last_updated_on: 2020-05-14 19:07:13.000000000 Z
 - name: babel-eslint
@@ -1929,8 +1981,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-flow/package.json
   last_updated_by: Tomek
   last_updated_on: 2018-07-25 11:42:40.000000000 Z
 - name: babel-jest
@@ -1943,8 +1995,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-jest/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-02-03 19:36:55.000000000 Z
 - name: babel-loader
@@ -1957,8 +2009,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
-  detection_source_url: examples/with-storybook-styled-jsx-scss/package.json
-  detection_source: examples/with-storybook/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-storybook-styled-jsx-scss/package.json
+  detection_source: examples/with-storybook-styled-jsx-scss/package.json
   last_updated_by: Justin Philpott
   last_updated_on: 2021-01-04 20:46:34.000000000 Z
 - name: babel-plugin-dynamic-import-node
@@ -1971,7 +2023,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16308/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2021-01-04 15:31:56.000000000 Z
@@ -1985,8 +2037,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16208/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: examples/with-ant-design-less/package.json
-  detection_source: examples/with-ant-design-pro-layout-less/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-ant-design-less/package.json
+  detection_source: examples/with-ant-design-less/package.json
   last_updated_by: Giau Tran Minh
   last_updated_on: 2018-06-07 11:14:27.000000000 Z
 - name: babel-plugin-inline-react-svg
@@ -1999,7 +2051,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18443/default_31e3dc8ee5066945286d4e7345d470ac3863ee5a.png
-  detection_source_url: examples/svg-components/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/svg-components/package.json
   detection_source: examples/svg-components/package.json
   last_updated_by: Juan Olvera
   last_updated_on: 2019-01-05 11:19:27.000000000 Z
@@ -2013,8 +2065,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17191/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
-  detection_source_url: yarn.lock
-  detection_source: examples/with-lingui/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-babel-macros/package.json
   last_updated_by: garnerp
   last_updated_on: 2018-11-28 19:34:46.000000000 Z
 - name: babel-plugin-react-intl
@@ -2028,7 +2080,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17528/default_3c6aa8b4297562bfc2a090966a5bc0fad1d0b678.png
-  detection_source_url: examples/with-react-intl/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-intl/package.json
   detection_source: examples/with-react-intl/package.json
   last_updated_by: Long Ho
   last_updated_on: 2020-09-01 01:33:24.000000000 Z
@@ -2043,8 +2095,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16651/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
-  detection_source_url: yarn.lock
-  detection_source: examples/with-typescript-styled-components/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-atlaskit/package.json
   last_updated_by: Alejandro
   last_updated_on: 2020-04-05 11:27:49.000000000 Z
 - name: babel-plugin-transform-flow-strip-types
@@ -2057,7 +2109,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16172/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: examples/with-flow/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-flow/package.json
   detection_source: examples/with-flow/package.json
   last_updated_by: Tomek
   last_updated_on: 2018-07-25 11:42:40.000000000 Z
@@ -2071,7 +2123,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16217/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: examples/with-rebass/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-rebass/package.json
   detection_source: examples/with-rebass/package.json
   last_updated_by: Austin Huang
   last_updated_on: 2020-09-21 02:16:15.000000000 Z
@@ -2085,7 +2137,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16106/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: examples/with-glamor/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-glamor/package.json
   detection_source: examples/with-glamor/package.json
   last_updated_by: Juan Olvera
   last_updated_on: 2019-01-05 11:19:27.000000000 Z
@@ -2099,7 +2151,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16286/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2021-01-06 23:30:00.000000000 Z
@@ -2113,7 +2165,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18526/default_6d0416098b5583c02111044f891c8f1f8e30a97e.png
-  detection_source_url: examples/with-expo-typescript/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-expo-typescript/package.json
   detection_source: examples/with-expo-typescript/package.json
   last_updated_by: Jack Moore
   last_updated_on: 2020-05-22 17:21:46.000000000 Z
@@ -2127,8 +2179,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17198/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: package.json
   last_updated_by: JJ Kasper
   last_updated_on: 2020-11-15 21:18:16.000000000 Z
   vulnerabilities:
@@ -2148,8 +2200,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16891/default_884deeafc4d4b680b6d9cb7e3759ba2db025e8e7.png
-  detection_source_url: examples/with-reason-relay/package.json
-  detection_source: examples/with-reasonml/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-reason-relay/package.json
+  detection_source: examples/with-reason-relay/package.json
   last_updated_by: Arnar Kári Ágústsson
   last_updated_on: 2020-05-22 10:13:44.000000000 Z
 - name: buffer
@@ -2162,7 +2214,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16609/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-07-28 09:33:21.000000000 Z
@@ -2176,7 +2228,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17685/default_43c2244142d473ead35e8e5c22850dfec0a06c35.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: iczero
   last_updated_on: 2020-11-09 15:14:47.000000000 Z
@@ -2190,10 +2242,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18015/default_1f8ed84269df051b7e91bcbcb5c88ac6f0d8720d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-11-12 05:53:59.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: packages/create-next-app/package.json
+  last_updated_by: Joe Haddad
+  last_updated_on: 2019-07-19 19:55:30.000000000 Z
 - name: cheerio
   description: Fast, flexible, and lean implementation of core jQuery
   package_url: https://www.npmjs.com/cheerio
@@ -2204,7 +2270,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-02-12 01:16:42.000000000 Z
@@ -2218,7 +2284,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16043/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: JJ Kasper
   last_updated_on: 2020-11-11 07:35:31.000000000 Z
@@ -2232,8 +2298,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: yarn.lock
-  detection_source: packages/react-dev-overlay/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/blog-starter-typescript/package.json
   last_updated_by: Koji Sugimoto
   last_updated_on: 2020-05-23 18:34:35.000000000 Z
 - name: clone
@@ -2246,7 +2312,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16398/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Jan Potoms
   last_updated_on: 2020-07-26 04:57:06.000000000 Z
@@ -2260,7 +2326,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/create-next-app/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2019-07-19 19:55:30.000000000 Z
@@ -2274,7 +2340,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2021-01-06 23:30:00.000000000 Z
@@ -2288,8 +2354,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: examples/with-reasonml-todo/package.json
-  detection_source: examples/with-reasonml/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-reasonml-todo/package.json
+  detection_source: examples/with-reasonml-todo/package.json
   last_updated_by: Nathan Sculli
   last_updated_on: 2019-05-23 21:48:13.000000000 Z
 - name: conf
@@ -2302,7 +2368,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17998/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Guy Bedford
   last_updated_on: 2020-03-29 15:46:33.000000000 Z
@@ -2316,7 +2382,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17887/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -2330,8 +2396,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16660/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/api-routes-apollo-server-and-client-auth/package.json
   last_updated_by: Luis Alvarez D
   last_updated_on: 2020-06-10 03:46:11.000000000 Z
 - name: copy-webpack-plugin
@@ -2344,7 +2410,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: examples/with-ionic-typescript/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-ionic-typescript/package.json
   detection_source: examples/with-ionic-typescript/package.json
   last_updated_by: Hidetaka Okamoto
   last_updated_on: 2020-12-11 17:17:39.000000000 Z
@@ -2358,7 +2424,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next-polyfill-nomodule/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-05-11 00:48:57.000000000 Z
@@ -2372,8 +2438,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/api-routes-cors/package.json
   last_updated_by: Luis Alvarez D
   last_updated_on: 2020-05-02 04:06:23.000000000 Z
 - name: cpy
@@ -2386,7 +2452,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17731/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/create-next-app/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2019-07-17 20:53:56.000000000 Z
@@ -2400,8 +2466,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/analyze-bundles/package.json
   last_updated_by: Qurage
   last_updated_on: 2019-12-07 14:33:08.000000000 Z
 - name: cross-spawn
@@ -2414,8 +2480,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: yarn.lock
-  detection_source: packages/create-next-app/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-react-intl/package.json
   last_updated_by: Long Ho
   last_updated_on: 2020-09-16 23:01:21.000000000 Z
 - name: crypto-browserify
@@ -2428,7 +2494,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18055/image.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Bogdan Chadkin
   last_updated_on: 2020-11-05 12:30:20.000000000 Z
@@ -2443,7 +2509,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source_url: examples/with-ant-design/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-ant-design/package.json
   detection_source: examples/with-ant-design/package.json
   last_updated_by: Todor Totev
   last_updated_on: 2020-06-01 19:08:59.000000000 Z
@@ -2457,7 +2523,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-04-29 15:04:42.000000000 Z
@@ -2471,8 +2537,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: yarn.lock
-  detection_source: examples/with-apollo/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/api-routes-apollo-server-and-client-auth/package.json
   last_updated_by: Nikolas Santis
   last_updated_on: 2020-11-20 20:38:08.000000000 Z
 - name: dotenv-expand
@@ -2485,7 +2551,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16514/default_55f3303d620c93eecbee69c43373d484f2be492f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next-env/package.json
   last_updated_by: JJ Kasper
   last_updated_on: 2020-09-25 18:14:28.000000000 Z
@@ -2499,7 +2565,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16886/default_39222bc61d2c4e84c2e001fe7b31e7c8bf5f4832.png
-  detection_source_url: examples/with-draft-js/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-draft-js/package.json
   detection_source: examples/with-draft-js/package.json
   last_updated_by: Rounak Agarwal
   last_updated_on: 2020-04-20 09:05:09.000000000 Z
@@ -2514,8 +2580,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17567/default_cce6af1cc5c037d170650dfd256f479915d5a8e4.png
-  detection_source_url: examples/with-electron-typescript/package.json
-  detection_source: examples/with-electron/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-electron-typescript/package.json
+  detection_source: examples/with-electron-typescript/package.json
   last_updated_by: LittleboyHarry
   last_updated_on: 2020-11-12 21:02:43.000000000 Z
 - name: enzyme-adapter-react-16
@@ -2528,7 +2594,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15959/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: examples/with-mocha/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-mocha/package.json
   detection_source: examples/with-mocha/package.json
   last_updated_by: Timon Borter
   last_updated_on: 2020-03-20 09:13:57.000000000 Z
@@ -2542,8 +2608,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16736/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-07-16 22:29:34.000000000 Z
 - name: eslint-config-prettier
@@ -2556,7 +2622,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: examples/with-typescript-eslint-jest/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-typescript-eslint-jest/package.json
   detection_source: examples/with-typescript-eslint-jest/package.json
   last_updated_by: Jens Meindertsma
   last_updated_on: 2020-09-14 02:53:19.000000000 Z
@@ -2570,7 +2636,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-12-21 16:02:41.000000000 Z
@@ -2584,7 +2650,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15996/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-12-21 16:02:41.000000000 Z
@@ -2598,8 +2664,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-typescript-eslint-jest/package.json
   last_updated_by: Erik
   last_updated_on: 2020-05-25 18:16:06.000000000 Z
 - name: eslint-plugin-react-hooks
@@ -2612,7 +2678,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -2626,8 +2692,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16371/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
-  detection_source_url: examples/with-ant-design-pro-layout-less/package.json
-  detection_source: examples/with-ant-design/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-ant-design-pro-layout-less/package.json
+  detection_source: examples/with-ant-design-pro-layout-less/package.json
   last_updated_by: Max Schmitt
   last_updated_on: 2020-05-06 23:00:48.000000000 Z
 - name: etag
@@ -2640,7 +2706,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17743/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Guy Bedford
   last_updated_on: 2020-11-06 02:33:14.000000000 Z
@@ -2654,8 +2720,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next-codemod/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2019-07-17 20:53:56.000000000 Z
 - name: expect.js
@@ -2668,7 +2734,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16029/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: examples/with-mocha/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-mocha/package.json
   detection_source: examples/with-mocha/package.json
   last_updated_by: Stephen Sauceda
   last_updated_on: 2018-09-16 22:12:39.000000000 Z
@@ -2682,8 +2748,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17801/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
-  detection_source_url: examples/with-expo-typescript/package.json
-  detection_source: examples/with-expo/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-expo-typescript/package.json
+  detection_source: examples/with-expo-typescript/package.json
   last_updated_by: Jack Moore
   last_updated_on: 2020-05-22 17:21:46.000000000 Z
 - name: express
@@ -2696,8 +2762,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/custom-server-express/package.json
   last_updated_by: liulanz
   last_updated_on: 2020-04-11 21:18:40.000000000 Z
   vulnerabilities:
@@ -2717,8 +2783,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16327/default_1baba0e6ece19a38adfb211f686c83c781ff703a.png
-  detection_source_url: examples/analyze-bundles/package.json
-  detection_source: examples/with-webpack-bundle-size-analyzer/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/analyze-bundles/package.json
+  detection_source: examples/analyze-bundles/package.json
   last_updated_by: Arunoda Susiripala
   last_updated_on: 2017-06-28 19:16:21.000000000 Z
 - name: file-loader
@@ -2731,8 +2797,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-patternfly/package.json
   last_updated_by: Mohamed Akram
   last_updated_on: 2020-09-20 22:00:41.000000000 Z
 - name: find-cache-dir
@@ -2745,7 +2811,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17885/default_4b188d76bd950317acb7d53fc6b71007ec58af0d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Guy Bedford
   last_updated_on: 2020-11-05 03:30:37.000000000 Z
@@ -2759,7 +2825,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17030/default_824835a71140f223a333a5e10225c10368f12857.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Guy Bedford
   last_updated_on: 2020-11-04 21:52:49.000000000 Z
@@ -2773,8 +2839,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17151/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
-  detection_source_url: examples/with-firebase-authentication/package.json
-  detection_source: examples/with-firebase/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-firebase-authentication/package.json
+  detection_source: examples/with-firebase-authentication/package.json
   last_updated_by: matamatanot
   last_updated_on: 2020-06-26 12:55:32.000000000 Z
 - name: flow-bin
@@ -2787,7 +2853,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15957/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: examples/with-flow/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-flow/package.json
   detection_source: examples/with-flow/package.json
   last_updated_by: Tomek
   last_updated_on: 2018-07-25 11:42:40.000000000 Z
@@ -2801,7 +2867,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18037/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2021-01-06 23:30:00.000000000 Z
@@ -2816,8 +2882,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: ".github/actions/next-stats-action/package.json"
   last_updated_by: JJ Kasper
   last_updated_on: 2020-05-21 12:07:27.000000000 Z
 - name: fuse.js
@@ -2830,7 +2896,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17405/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
-  detection_source_url: examples/with-dynamic-import/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-dynamic-import/package.json
   detection_source: examples/with-dynamic-import/package.json
   last_updated_by: Luis Alvarez D
   last_updated_on: 2020-09-05 23:45:30.000000000 Z
@@ -2844,8 +2910,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16732/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: ".github/actions/next-stats-action/package.json"
   last_updated_by: JJ Kasper
   last_updated_on: 2020-05-21 12:07:27.000000000 Z
 - name: glamor
@@ -2858,7 +2924,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18009/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
-  detection_source_url: examples/with-glamor/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-glamor/package.json
   detection_source: examples/with-glamor/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2017-02-26 12:28:00.000000000 Z
@@ -2872,8 +2938,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: ".github/actions/next-stats-action/package.json"
   last_updated_by: JJ Kasper
   last_updated_on: 2020-05-21 12:07:27.000000000 Z
 - name: globby
@@ -2886,8 +2952,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16159/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next-codemod/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-sitemap/package.json
   last_updated_by: Arsalan Khattak
   last_updated_on: 2020-07-24 16:35:39.000000000 Z
 - name: got
@@ -2900,7 +2966,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/create-next-app/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2019-07-17 20:53:56.000000000 Z
@@ -2921,7 +2987,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16631/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
-  detection_source_url: examples/with-typescript-graphql/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-typescript-graphql/package.json
   detection_source: examples/with-typescript-graphql/package.json
   last_updated_by: Soichi Takamura
   last_updated_on: 2020-08-30 02:15:50.000000000 Z
@@ -2935,8 +3001,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17773/default_2f87d5add351cc79d3471e48bc0dd6f92c1288ad.png
-  detection_source_url: examples/blog-starter-typescript/package.json
-  detection_source: examples/with-mdx-remote/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/blog-starter-typescript/package.json
+  detection_source: examples/blog-starter-typescript/package.json
   last_updated_by: Koji Sugimoto
   last_updated_on: 2020-05-23 18:34:35.000000000 Z
 - name: gsap
@@ -2950,7 +3016,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17543/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
-  detection_source_url: examples/with-gsap/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-gsap/package.json
   detection_source: examples/with-gsap/package.json
   last_updated_by: Galanggg
   last_updated_on: 2020-11-09 20:38:07.000000000 Z
@@ -2971,8 +3037,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16649/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: ".github/actions/next-stats-action/package.json"
   last_updated_by: JJ Kasper
   last_updated_on: 2020-05-21 12:07:27.000000000 Z
 - name: http-proxy
@@ -2985,7 +3051,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16430/default_d73092129e1cde5ea9f47f22e2d7c3db7bd6da8d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -2999,10 +3065,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16167/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: examples/with-custom-reverse-proxy/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-custom-reverse-proxy/package.json
   detection_source: examples/with-custom-reverse-proxy/package.json
   last_updated_by: Mathis Chenuet
   last_updated_on: 2020-05-28 21:00:58.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 4.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-typescript-eslint-jest/package.json
+  detection_source: examples/with-typescript-eslint-jest/package.json
+  last_updated_by: Erik
+  last_updated_on: 2020-05-25 18:16:06.000000000 Z
 - name: identity-obj-proxy
   description: An identity object using ES6 proxies
   package_url: https://www.npmjs.com/identity-obj-proxy
@@ -3013,8 +3093,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16206/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
-  detection_source_url: examples/with-jest/package.json
-  detection_source: examples/with-typescript-eslint-jest/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-jest/package.json
+  detection_source: examples/with-jest/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-02-03 19:36:55.000000000 Z
 - name: immer
@@ -3027,8 +3107,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16937/default_7b9968788548874538c601457e8dcd9c74bd2051.png
-  detection_source_url: examples/with-aws-amplify-typescript/package.json
-  detection_source: examples/with-aws-amplify/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-aws-amplify-typescript/package.json
+  detection_source: examples/with-aws-amplify-typescript/package.json
   last_updated_by: Rakan Nimer
   last_updated_on: 2019-07-29 14:44:06.000000000 Z
   vulnerabilities:
@@ -3060,7 +3140,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next-codemod/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-08-10 12:34:35.000000000 Z
@@ -3074,7 +3154,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16522/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
-  detection_source_url: examples/custom-server-actionhero/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/custom-server-actionhero/package.json
   detection_source: examples/custom-server-actionhero/package.json
   last_updated_by: Evan Tahler
   last_updated_on: 2018-02-27 12:16:17.000000000 Z
@@ -3088,7 +3168,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17097/default_faf55ef1f2892d4dcce54ed77892756797ff34e1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-05-11 00:48:57.000000000 Z
@@ -3102,7 +3182,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16022/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Guy Bedford
   last_updated_on: 2020-11-06 02:33:14.000000000 Z
@@ -3116,7 +3196,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16646/default_50c9ed1615a25628505ab53def64d82450ced26b.png
-  detection_source_url: examples/with-typescript-eslint-jest/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-typescript-eslint-jest/package.json
   detection_source: examples/with-typescript-eslint-jest/package.json
   last_updated_by: Erik
   last_updated_on: 2020-05-25 18:16:06.000000000 Z
@@ -3130,7 +3210,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16441/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source_url: examples/with-firebase-authentication/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-firebase-authentication/package.json
   detection_source: examples/with-firebase-authentication/package.json
   last_updated_by: Todor Totev
   last_updated_on: 2020-06-11 17:38:29.000000000 Z
@@ -3144,7 +3224,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17820/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next-codemod/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-08-10 12:34:35.000000000 Z
@@ -3158,7 +3238,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16645/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-09-01 15:29:25.000000000 Z
@@ -3179,7 +3259,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-09-01 15:29:25.000000000 Z
@@ -3220,7 +3300,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17509/default_3551598c41205d6bdb9267e84e481dd5afeedb46.png
-  detection_source_url: examples/with-react-multi-carousel/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-multi-carousel/package.json
   detection_source: examples/with-react-multi-carousel/package.json
   last_updated_by: yi
   last_updated_on: 2019-04-03 10:58:59.000000000 Z
@@ -3234,7 +3314,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16491/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source_url: examples/with-knex/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-knex/package.json
   detection_source: examples/with-knex/package.json
   last_updated_by: Ash Connell
   last_updated_on: 2020-11-10 22:45:21.000000000 Z
@@ -3245,6 +3325,20 @@ tools:
     detected_date: Dec 21
     severity: high
     first_patched: 2.4.0
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 10.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-typescript-eslint-jest/package.json
+  last_updated_by: Erik
+  last_updated_on: 2020-05-25 18:16:06.000000000 Z
 - name: loader-utils
   description: Utils for webpack loaders
   package_url: https://www.npmjs.com/loader-utils
@@ -3255,7 +3349,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16191/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2021-01-06 23:30:00.000000000 Z
@@ -3289,7 +3383,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17229/default_48f040bdc5f6c639c70bf350f8b8158ede27286c.png
-  detection_source_url: examples/with-firebase-cloud-messaging/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-firebase-cloud-messaging/package.json
   detection_source: examples/with-firebase-cloud-messaging/package.json
   last_updated_by: Juan Olvera
   last_updated_on: 2019-01-05 11:19:27.000000000 Z
@@ -3303,8 +3397,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16386/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/api-routes-rate-limit/package.json
   last_updated_by: Lee Robinson
   last_updated_on: 2021-01-04 22:19:31.000000000 Z
 - name: meow
@@ -3317,7 +3411,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16181/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next-codemod/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-08-10 12:34:35.000000000 Z
@@ -3331,7 +3425,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17573/default_4627bd50a25f9a490243683fabcc5c97d552aa2a.png
-  detection_source_url: examples/with-stripe-typescript/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-stripe-typescript/package.json
   detection_source: examples/with-stripe-typescript/package.json
   last_updated_by: Thor
   last_updated_on: 2020-02-11 03:24:38.000000000 Z
@@ -3345,8 +3439,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16393/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next-polyfill-nomodule/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: packages/next-polyfill-module/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
 - name: minimatch
@@ -3359,8 +3453,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16195/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: ".github/actions/next-stats-action/package.json"
   last_updated_by: JJ Kasper
   last_updated_on: 2020-05-21 12:07:27.000000000 Z
   vulnerabilities:
@@ -3380,7 +3474,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Guy Bedford
   last_updated_on: 2020-11-04 21:52:49.000000000 Z
@@ -3394,8 +3488,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16661/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
-  detection_source_url: examples/with-mobx-state-tree-typescript/package.json
-  detection_source: examples/with-mobx/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-mobx-state-tree-typescript/package.json
+  detection_source: examples/with-mobx-state-tree-typescript/package.json
   last_updated_by: kevin sproles
   last_updated_on: 2020-07-17 18:42:36.000000000 Z
 - name: moment
@@ -3408,7 +3502,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-12-21 16:02:41.000000000 Z
@@ -3435,7 +3529,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18275/default_04867aeead13d19d0c97d0c649f8b38985a43aba.png
-  detection_source_url: examples/with-monaco-editor/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-monaco-editor/package.json
   detection_source: examples/with-monaco-editor/package.json
   last_updated_by: Elliot Hesp
   last_updated_on: 2020-05-18 17:21:13.000000000 Z
@@ -3449,8 +3543,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17208/default_183829c5079b84333a720d8590a328efc043ba0e.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-aws-amplify-typescript/package.json
   last_updated_by: Rakan Nimer
   last_updated_on: 2019-07-29 14:44:06.000000000 Z
   vulnerabilities:
@@ -3470,8 +3564,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: ".github/actions/next-stats-action/package.json"
   last_updated_by: JJ Kasper
   last_updated_on: 2020-05-21 12:07:27.000000000 Z
   vulnerabilities:
@@ -3497,7 +3591,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16146/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-12-21 16:02:41.000000000 Z
@@ -3518,8 +3612,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
-  detection_source: test/integration/cli/duplicate-sass/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-carbon-components/package.json
   last_updated_by: Balint Lendvai
   last_updated_on: 2020-07-17 01:17:58.000000000 Z
   vulnerabilities:
@@ -3539,7 +3633,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: JJ Kasper
   last_updated_on: 2019-11-27 19:26:40.000000000 Z
@@ -3553,8 +3647,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17061/default_23002b02644a8cb313a0f53f43df271731022a9e.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-loading/package.json
   last_updated_by: Lukas Strassel
   last_updated_on: 2017-02-08 04:41:38.000000000 Z
 - name: null-loader
@@ -3567,8 +3661,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16787/default_6c86c81e45e0f08d11e77cb7e07388a0317cf081.png
-  detection_source_url: examples/with-ant-design-less/package.json
-  detection_source: examples/with-ant-design-pro-layout-less/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-ant-design-less/package.json
+  detection_source: examples/with-ant-design-less/package.json
   last_updated_by: JJ Kasper
   last_updated_on: 2019-06-04 09:13:11.000000000 Z
 - name: object-assign
@@ -3581,7 +3675,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16015/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next-polyfill-nomodule/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-01-30 06:04:29.000000000 Z
@@ -3595,7 +3689,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15937/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2018-09-30 23:02:10.000000000 Z
@@ -3609,7 +3703,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18388/default_404701144cd8e1becf3aec789202840caee4d78e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-12-12 20:28:53.000000000 Z
@@ -3623,8 +3717,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16304/default_1baba0e6ece19a38adfb211f686c83c781ff703a.png
-  detection_source_url: examples/with-passport-and-next-connect/package.json
-  detection_source: examples/with-passport/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-passport-and-next-connect/package.json
+  detection_source: examples/with-passport-and-next-connect/package.json
   last_updated_by: Hoang Vo
   last_updated_on: 2020-04-13 23:07:54.000000000 Z
   vulnerabilities:
@@ -3644,8 +3738,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16747/default_adce7cef6d131ffc31466624541462e4db9534d4.png
-  detection_source_url: examples/with-passport-and-next-connect/package.json
-  detection_source: examples/with-passport/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-passport-and-next-connect/package.json
+  detection_source: examples/with-passport-and-next-connect/package.json
   last_updated_by: Hoang Vo
   last_updated_on: 2020-04-13 23:07:54.000000000 Z
 - name: path-to-regexp
@@ -3658,7 +3752,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16316/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-08-10 01:26:21.000000000 Z
@@ -3672,7 +3766,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
-  detection_source_url: examples/with-knex/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-knex/package.json
   detection_source: examples/with-knex/package.json
   last_updated_by: Ash Connell
   last_updated_on: 2020-11-10 22:45:21.000000000 Z
@@ -3686,7 +3780,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18335/default_cef8b737c55fccc3604e91ce246aef30fc604c73.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/react-dev-overlay/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-31 19:04:46.000000000 Z
@@ -3700,7 +3794,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17014/default_192373fe2b3ded7bb442c39dbf0f34ca3e5bed5d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -3714,8 +3808,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/blog-starter/package.json
   last_updated_by: Greg Rickaby
   last_updated_on: 2020-12-31 00:04:23.000000000 Z
   vulnerabilities:
@@ -3747,8 +3841,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16265/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/cms-buttercms/package.json
   last_updated_by: Shu Uesugi
   last_updated_on: 2020-06-10 17:13:10.000000000 Z
 - name: postcss-loader
@@ -3761,7 +3855,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-11-14 15:03:04.000000000 Z
@@ -3775,8 +3869,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16575/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
-  detection_source_url: yarn.lock
-  detection_source: test/integration/styled-jsx-plugin/app/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-astroturf/package.json
   last_updated_by: Danil Shashkov
   last_updated_on: 2019-03-28 20:41:05.000000000 Z
 - name: postcss-preset-env
@@ -3789,8 +3883,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16373/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/blog-starter-typescript/package.json
   last_updated_by: Koji Sugimoto
   last_updated_on: 2020-05-23 18:34:35.000000000 Z
 - name: postcss-scss
@@ -3803,7 +3897,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16233/default_dc80ff0a17bac19253430a4f0f586714841116db.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-11-14 15:03:04.000000000 Z
@@ -3817,8 +3911,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16763/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: ".github/actions/next-stats-action/package.json"
   last_updated_by: JJ Kasper
   last_updated_on: 2020-05-21 12:07:27.000000000 Z
 - name: pretty-ms
@@ -3832,8 +3926,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17620/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: ".github/actions/next-stats-action/package.json"
   last_updated_by: JJ Kasper
   last_updated_on: 2020-05-21 12:07:27.000000000 Z
 - name: process
@@ -3846,7 +3940,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17866/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-07-28 09:33:21.000000000 Z
@@ -3860,7 +3954,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17250/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/create-next-app/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2019-07-19 19:55:30.000000000 Z
@@ -3874,8 +3968,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/api-routes-apollo-server-and-client-auth/package.json
   last_updated_by: Aaron Reisman
   last_updated_on: 2020-01-23 19:55:45.000000000 Z
 - name: qs
@@ -3888,7 +3982,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16125/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: examples/with-algolia-react-instantsearch/package.json
   last_updated_by: Marie-Laure Thuret
   last_updated_on: 2017-07-12 18:00:47.000000000 Z
@@ -3909,7 +4003,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17336/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Guy Bedford
   last_updated_on: 2020-11-06 02:33:14.000000000 Z
@@ -3923,7 +4017,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16654/default_bfa6d5d12cc0af739d6b3d4c69dddc66832b1d34.png
-  detection_source_url: examples/with-react-toolbox/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-toolbox/package.json
   detection_source: examples/with-react-toolbox/package.json
   last_updated_by: Juan Olvera
   last_updated_on: 2019-01-05 11:19:27.000000000 Z
@@ -3937,7 +4031,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16383/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
-  detection_source_url: examples/with-react-bootstrap/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-bootstrap/package.json
   detection_source: examples/with-react-bootstrap/package.json
   last_updated_by: liwenzhi
   last_updated_on: 2020-05-07 22:13:59.000000000 Z
@@ -3951,8 +4045,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
-  detection_source: test/integration/styled-jsx-plugin/app/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/active-class-name/package.json
   last_updated_by: Juan Olvera
   last_updated_on: 2019-01-05 11:19:27.000000000 Z
 - name: react-ga
@@ -3965,7 +4059,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18260/default_e883f2ab27e3b57d1e2e1d1474b09e7351e11b54.png
-  detection_source_url: examples/with-react-ga/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-ga/package.json
   detection_source: examples/with-react-ga/package.json
   last_updated_by: Juan Olvera
   last_updated_on: 2019-01-05 11:19:27.000000000 Z
@@ -3979,7 +4073,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16513/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
-  detection_source_url: examples/with-react-helmet/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-helmet/package.json
   detection_source: examples/with-react-helmet/package.json
   last_updated_by: Francisco Pizarro
   last_updated_on: 2020-04-18 18:09:10.000000000 Z
@@ -3993,7 +4087,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16566/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
-  detection_source_url: examples/with-react-intl/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-intl/package.json
   detection_source: examples/with-react-intl/package.json
   last_updated_by: Long Ho
   last_updated_on: 2020-09-01 01:33:24.000000000 Z
@@ -4007,8 +4101,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17829/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-storybook-styled-jsx-scss/package.json
   last_updated_by: Justin Philpott
   last_updated_on: 2021-01-04 20:46:34.000000000 Z
 - name: react-jss
@@ -4021,8 +4115,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17302/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
-  detection_source_url: examples/with-react-jss/package.json
-  detection_source: examples/with-react-multi-carousel/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-react-jss/package.json
+  detection_source: examples/with-react-jss/package.json
   last_updated_by: Lukas Polak
   last_updated_on: 2020-07-14 13:26:30.000000000 Z
 - name: react-modal
@@ -4035,7 +4129,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16926/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
-  detection_source_url: examples/with-route-as-modal/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-route-as-modal/package.json
   detection_source: examples/with-route-as-modal/package.json
   last_updated_by: Hugo Morosini
   last_updated_on: 2020-03-31 19:10:55.000000000 Z
@@ -4048,7 +4142,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16064/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
-  detection_source: examples/with-expo/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-expo-typescript/package.json
+  detection_source: examples/with-expo-typescript/package.json
   last_updated_by: Jack Moore
   last_updated_on: 2020-05-22 17:21:46.000000000 Z
 - name: react-native-web
@@ -4061,8 +4156,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17683/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
-  detection_source_url: examples/with-expo-typescript/package.json
-  detection_source: examples/with-react-native-web/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-expo-typescript/package.json
+  detection_source: examples/with-expo-typescript/package.json
   last_updated_by: Jack Moore
   last_updated_on: 2020-05-22 17:21:46.000000000 Z
 - name: react-redux
@@ -4075,8 +4170,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: examples/with-apollo-and-redux/package.json
-  detection_source: examples/with-rematch/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-apollo-and-redux/package.json
+  detection_source: examples/with-apollo-and-redux/package.json
   last_updated_by: Luis Alvarez D
   last_updated_on: 2020-06-09 21:11:45.000000000 Z
 - name: react-test-renderer
@@ -4089,8 +4184,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: examples/with-jest/package.json
-  detection_source: examples/with-typescript-graphql/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-jest/package.json
+  detection_source: examples/with-jest/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-02-03 19:36:55.000000000 Z
 - name: react-toastify
@@ -4103,7 +4198,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18461/default_5ff724c0ff89bb42698aa80ef3403008cb0d8f72.png
-  detection_source_url: examples/with-redis/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-redis/package.json
   detection_source: examples/with-redis/package.json
   last_updated_by: Sven Anderson
   last_updated_on: 2020-08-07 01:34:02.000000000 Z
@@ -4117,7 +4212,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: examples/with-gsap/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-gsap/package.json
   detection_source: examples/with-gsap/package.json
   last_updated_by: Galanggg
   last_updated_on: 2020-11-09 20:38:07.000000000 Z
@@ -4131,8 +4226,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18516/default_ba23e4635acf0040794272f2e34db84811dfb728.png
-  detection_source_url: examples/with-reason-relay/package.json
-  detection_source: examples/with-reasonml/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-reason-relay/package.json
+  detection_source: examples/with-reason-relay/package.json
   last_updated_by: Kristoffer K
   last_updated_on: 2020-09-05 21:23:51.000000000 Z
 - name: recast
@@ -4145,7 +4240,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17195/default_183829c5079b84333a720d8590a328efc043ba0e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Guy Bedford
   last_updated_on: 2020-03-29 01:36:38.000000000 Z
@@ -4159,8 +4254,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17039/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
-  detection_source_url: examples/with-apollo-and-redux/package.json
-  detection_source: examples/with-redux/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-apollo-and-redux/package.json
+  detection_source: examples/with-apollo-and-redux/package.json
   last_updated_by: Luis Alvarez D
   last_updated_on: 2020-06-09 21:11:45.000000000 Z
 - name: redux-logger
@@ -4173,7 +4268,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16512/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
-  detection_source_url: examples/with-redux-observable/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-redux-observable/package.json
   detection_source: examples/with-redux-observable/package.json
   last_updated_by: Todor Totev
   last_updated_on: 2020-06-03 09:23:16.000000000 Z
@@ -4187,7 +4282,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18120/image.png
-  detection_source_url: examples/with-redux-observable/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-redux-observable/package.json
   detection_source: examples/with-redux-observable/package.json
   last_updated_by: Todor Totev
   last_updated_on: 2020-06-03 09:23:16.000000000 Z
@@ -4201,7 +4296,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16472/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
-  detection_source_url: examples/with-redux-saga/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-redux-saga/package.json
   detection_source: examples/with-redux-saga/package.json
   last_updated_by: Todor Totev
   last_updated_on: 2020-06-05 14:59:13.000000000 Z
@@ -4215,8 +4310,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16952/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
-  detection_source_url: examples/blog-starter-typescript/package.json
-  detection_source: examples/cms-takeshape/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/blog-starter-typescript/package.json
+  detection_source: examples/blog-starter-typescript/package.json
   last_updated_by: Koji Sugimoto
   last_updated_on: 2020-05-23 18:34:35.000000000 Z
 - name: request
@@ -4229,8 +4324,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: yarn.lock
-  detection_source: examples/with-unsplash/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-graphql-faunadb/package.json
   last_updated_by: fauna-brecht
   last_updated_on: 2020-01-22 20:16:56.000000000 Z
   vulnerabilities:
@@ -4250,7 +4345,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16128/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Felipe Flores
   last_updated_on: 2020-10-20 20:26:38.000000000 Z
@@ -4264,7 +4359,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16468/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: iczero
   last_updated_on: 2020-11-09 15:14:47.000000000 Z
@@ -4278,8 +4373,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
-  detection_source: packages/create-next-app/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-electron-typescript/package.json
   last_updated_by: Davidson Nascimento
   last_updated_on: 2020-11-09 13:34:16.000000000 Z
 - name: sass-loader
@@ -4292,7 +4387,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2021-01-04 15:31:56.000000000 Z
@@ -4306,7 +4401,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17595/default_e1c4f2497325ac0d57aca0c3473ca18d24eb8a13.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2021-01-06 23:30:00.000000000 Z
@@ -4320,7 +4415,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17815/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-08-21 18:50:24.000000000 Z
@@ -4335,7 +4430,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17924/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Jan Potoms
   last_updated_on: 2020-07-26 04:57:06.000000000 Z
@@ -4349,7 +4444,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16708/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Jan Potoms
   last_updated_on: 2020-07-26 04:57:06.000000000 Z
@@ -4363,7 +4458,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18728/default_99bca233a712b099f2419ea1a75e96fcbf57f2af.png
-  detection_source_url: examples/with-semantic-ui/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-semantic-ui/package.json
   detection_source: examples/with-semantic-ui/package.json
   last_updated_by: Marcin Czenko
   last_updated_on: 2019-01-28 07:37:24.000000000 Z
@@ -4377,7 +4472,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17202/default_077b6c5a1d83537f4c2e69cb474f20509daa99ac.png
-  detection_source_url: examples/with-semantic-ui/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-semantic-ui/package.json
   detection_source: examples/with-semantic-ui/package.json
   last_updated_by: Marcin Czenko
   last_updated_on: 2019-01-28 07:37:24.000000000 Z
@@ -4392,7 +4487,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17093/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Guy Bedford
   last_updated_on: 2020-03-29 01:40:29.000000000 Z
@@ -4406,7 +4501,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: examples/with-static-export/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-static-export/package.json
   detection_source: examples/with-static-export/package.json
   last_updated_by: Nataliya Karatkova
   last_updated_on: 2019-10-29 16:17:48.000000000 Z
@@ -4420,8 +4515,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17489/default_188fa5cbc974fa18aed5a9b1f0d7f2bfaf8f1648.png
-  detection_source_url: yarn.lock
-  detection_source: packages/react-dev-overlay/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2019-10-30 11:35:51.000000000 Z
   vulnerabilities:
@@ -4441,7 +4536,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17582/default_3a2c894d178d46e5b78f3e41ac6b2ced48b414c8.png
-  detection_source_url: examples/with-slate/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-slate/package.json
   detection_source: examples/with-slate/package.json
   last_updated_by: Henrik Wenz
   last_updated_on: 2020-09-09 18:00:09.000000000 Z
@@ -4455,7 +4550,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18566/default_27683a26a828c4de36f39c196ee155306eb1eaee.png
-  detection_source_url: examples/with-slate/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-slate/package.json
   detection_source: examples/with-slate/package.json
   last_updated_by: Henrik Wenz
   last_updated_on: 2020-09-09 18:00:09.000000000 Z
@@ -4469,8 +4564,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16339/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: yarn.lock
-  detection_source: packages/react-dev-overlay/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: packages/next/package.json
   last_updated_by: Guy Bedford
   last_updated_on: 2020-03-29 03:41:35.000000000 Z
 - name: sqlite3
@@ -4483,7 +4578,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16285/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
-  detection_source_url: examples/with-next-auth/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-next-auth/package.json
   detection_source: examples/with-next-auth/package.json
   last_updated_by: Sébastien Vanvelthem
   last_updated_on: 2020-09-21 19:51:52.000000000 Z
@@ -4510,7 +4605,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18772/default_0463109c3299785d8c9eead13542e3834a3cc7cb.png
-  detection_source_url: examples/with-graphql-faunadb/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-graphql-faunadb/package.json
   detection_source: examples/with-graphql-faunadb/package.json
   last_updated_by: fauna-brecht
   last_updated_on: 2020-01-22 20:16:56.000000000 Z
@@ -4524,8 +4619,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16331/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: yarn.lock
-  detection_source: packages/react-dev-overlay/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: packages/next/package.json
   last_updated_by: Fonger
   last_updated_on: 2020-04-22 02:52:07.000000000 Z
 - name: style-loader
@@ -4538,8 +4633,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/with-algolia-react-instantsearch/package.json
   last_updated_by: Natalie Marleny
   last_updated_on: 2019-12-04 23:33:29.000000000 Z
 - name: styled-jsx
@@ -4552,7 +4647,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17785/default_ade6298147a2f4c78d7d49e1ea77c0d3a3bbd44f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-11-17 16:53:35.000000000 Z
@@ -4566,7 +4661,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17954/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
-  detection_source_url: examples/with-patternfly/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-patternfly/package.json
   detection_source: examples/with-patternfly/package.json
   last_updated_by: Mohamed Akram
   last_updated_on: 2020-09-20 22:00:41.000000000 Z
@@ -4580,8 +4675,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/blog-starter-typescript/package.json
   last_updated_by: Justin Eder
   last_updated_on: 2021-01-01 18:45:55.000000000 Z
 - name: tar
@@ -4594,7 +4689,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16466/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/create-next-app/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2019-07-17 20:53:56.000000000 Z
@@ -4643,7 +4738,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16562/default_536789d2630ed352dc721a1c915ab456b7660201.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2020-12-29 20:10:08.000000000 Z
@@ -4664,7 +4759,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17277/default_03da3f7f53e439ab3b23ec47828b2f3229885efd.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Joe Haddad
   last_updated_on: 2019-05-23 07:52:36.000000000 Z
@@ -4678,7 +4773,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17547/default_809f38c280e61a39329e5ca5d8a16d8966425895.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: iczero
   last_updated_on: 2020-11-09 15:14:47.000000000 Z
@@ -4692,7 +4787,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16653/default_cc0f40a737548852d2ee666c132c258c9a2c0cad.png
-  detection_source_url: examples/with-three-js/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-three-js/package.json
   detection_source: examples/with-three-js/package.json
   last_updated_by: Gianmarco
   last_updated_on: 2020-07-08 07:55:51.000000000 Z
@@ -4719,7 +4814,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17621/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2020-10-23 07:52:37.000000000 Z
@@ -4733,8 +4828,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: examples/custom-server-typescript/package.json
-  detection_source: examples/with-react-intl/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/custom-server-typescript/package.json
+  detection_source: examples/custom-server-typescript/package.json
   last_updated_by: nirtamir2
   last_updated_on: 2020-08-05 13:15:38.000000000 Z
 - name: url-loader
@@ -4747,8 +4842,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: examples/with-patternfly/package.json
-  detection_source: examples/with-semantic-ui/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-patternfly/package.json
+  detection_source: examples/with-patternfly/package.json
   last_updated_by: Mohamed Akram
   last_updated_on: 2020-09-20 22:00:41.000000000 Z
 - name: uuid
@@ -4761,8 +4856,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: yarn.lock
-  detection_source: examples/with-tesfy/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: examples/api-routes-apollo-server-and-client-auth/package.json
   last_updated_by: Luis Alvarez D
   last_updated_on: 2020-06-10 03:46:11.000000000 Z
 - name: validate-npm-package-name
@@ -4775,7 +4870,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16712/default_5ea3918e441555ef1fd413f4100fe15fe23b366f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/create-next-app/package.json
   last_updated_by: matamatanot
   last_updated_on: 2020-04-13 18:47:01.000000000 Z
@@ -4789,7 +4884,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17668/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
-  detection_source_url: examples/with-videojs/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/examples/with-videojs/package.json
   detection_source: examples/with-videojs/package.json
   last_updated_by: Prateek Rastogi
   last_updated_on: 2018-04-12 10:22:37.000000000 Z
@@ -4811,8 +4906,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15991/default_cbd6c289400672b291755183817e9dd6abe1a612.png
-  detection_source_url: yarn.lock
-  detection_source: packages/next-bundle-analyzer/package.json
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
+  detection_source: package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-12-21 16:02:41.000000000 Z
 - name: webpack-sources
@@ -4825,7 +4920,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16921/default_24095c83b7b4f8d3f786358b9f13027acb571deb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-08-03 12:57:17.000000000 Z
@@ -4839,7 +4934,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16094/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: packages/next-polyfill-nomodule/package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-01-30 06:04:29.000000000 Z
@@ -4853,7 +4948,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17526/default_e5adc22c59a44962e41dfaec51edeb42c083f2f4.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/kalwabed/next.js/blob/canary/yarn.lock
   detection_source: package.json
   last_updated_by: Tim Neutkens
   last_updated_on: 2020-12-21 16:02:41.000000000 Z
