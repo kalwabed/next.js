@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 kalwabed/next.js is built on the following main stack:
+
 - [Stripe](https://stripe.com) – Payment Services
 - [Firebase](https://firebase.google.com/) – Realtime Backend / API
 - [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
@@ -80,11 +81,13 @@ kalwabed/next.js is built on the following main stack:
 - [Algolia](https://www.algolia.com/?utm_source=stackshare&utm_medium=referral) – Search as a Service
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 kalwabed/next.js is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/97/eW6tXeq3.png' alt='Stripe'/> [Stripe](https://stripe.com) – Payment Services
 - <img width='25' height='25' src='https://img.stackshare.io/service/116/cZLxNFZS.jpg' alt='Firebase'/> [Firebase](https://firebase.google.com/) – Realtime Backend / API
 - <img width='25' height='25' src='https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png' alt='Sentry'/> [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
@@ -163,14 +166,15 @@ kalwabed/next.js is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/589/default_452afb716f8f4b904f267638e5c6b9172f9fa06d.png' alt='Algolia'/> [Algolia](https://www.algolia.com/?utm_source=stackshare&utm_medium=referral) – Search as a Service
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [kalwabed/next.js](https://github.com/kalwabed/next.js)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|335<br/>Tools used|11/10/23 <br/>Report generated|
+|338<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -909,9 +913,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (249)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (252)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (249)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (252)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -994,6 +998,7 @@ Full tech stack [here](/techstack.md)
 |[buffer](https://www.npmjs.com/buffer)|v5.6.0|07/28/20|Tim Neutkens |MIT|N/A|
 |[cache-loader](https://www.npmjs.com/cache-loader)|v4.1.0|11/09/20|iczero |MIT|N/A|
 |[caniuse-lite](https://www.npmjs.com/caniuse-lite)|v1.0.30001157|11/12/20|Joe Haddad |CC-BY-4.0|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v2.3.2|07/19/19|Joe Haddad |MIT|N/A|
 |[cheerio](https://www.npmjs.com/cheerio)|v0.22.0|02/12/20|Joe Haddad |MIT|N/A|
 |[chokidar](https://www.npmjs.com/chokidar)|v3.4.3|11/11/20|JJ Kasper |MIT|N/A|
 |[classnames](https://www.npmjs.com/classnames)|v2.2.6|05/23/20|Koji Sugimoto |MIT|N/A|
@@ -1050,6 +1055,7 @@ Full tech stack [here](/techstack.md)
 |[gzip-size](https://www.npmjs.com/gzip-size)|v5.1.1|05/21/20|JJ Kasper |MIT|N/A|
 |[http-proxy](https://www.npmjs.com/http-proxy)|v1.18.1|12/29/20|Joe Haddad |MIT|N/A|
 |[http-proxy-middleware](https://www.npmjs.com/http-proxy-middleware)|v1.0.4|05/28/20|Mathis Chenuet |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v4.2.3|05/25/20|Erik |MIT|N/A|
 |[identity-obj-proxy](https://www.npmjs.com/identity-obj-proxy)|v3.0.0|02/03/20|Joe Haddad |MIT|N/A|
 |[immer](https://www.npmjs.com/immer)|v3.1.3|07/29/19|Rakan Nimer |MIT|[CVE-2021-23436](https://github.com/advisories/GHSA-33f9-j839-rf8h) (Critical)<br/>[CVE-2021-3757](https://github.com/advisories/GHSA-c36v-fmgq-m8hx) (High)<br/>[CVE-2020-28477](https://github.com/advisories/GHSA-9qmh-276g-x5pj) (High)|
 |[inquirer](https://www.npmjs.com/inquirer)|v5.2.0|08/10/20|Tim Neutkens |MIT|N/A|
@@ -1063,6 +1069,7 @@ Full tech stack [here](/techstack.md)
 |[jsonwebtoken](https://www.npmjs.com/jsonwebtoken)|v8.5.1|09/01/20|Joe Haddad |MIT|[CVE-2022-23529](https://github.com/advisories/GHSA-27h2-hvpr-p74q) (High)<br/>[CVE-2022-23539](https://github.com/advisories/GHSA-8cf7-32gw-wr33) (Moderate)<br/>[CVE-2022-23540](https://github.com/advisories/GHSA-qwph-4952-7xr6) (Moderate)<br/>[CVE-2022-23541](https://github.com/advisories/GHSA-hjrf-2m68-5959) (Moderate)|
 |[jss](https://www.npmjs.com/jss)|v9.8.7|04/03/19|yi |MIT|N/A|
 |[knex](https://www.npmjs.com/knex)|v0.21.6|11/10/20|Ash Connell |MIT|[CVE-2016-20018](https://github.com/advisories/GHSA-4jv9-3563-23j3) (High)|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v10.1.7|05/25/20|Erik |MIT|N/A|
 |[loader-utils](https://www.npmjs.com/loader-utils)|v1.2.3|01/06/21|Joe Haddad |MIT|[CVE-2022-37601](https://github.com/advisories/GHSA-76p3-8jx3-jpfq) (Critical)<br/>[CVE-2022-37599](https://github.com/advisories/GHSA-hhq3-ff78-jv3g) (High)<br/>[CVE-2022-37603](https://github.com/advisories/GHSA-3rfm-jhwj-7488) (High)|
 |[localforage](https://www.npmjs.com/localforage)|v1.7.3|01/05/19|Juan Olvera |Apache-2.0|N/A|
 |[lru-cache](https://www.npmjs.com/lru-cache)|v5.1.1|01/04/21|Lee Robinson |ISC|N/A|
@@ -1168,4 +1175,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
